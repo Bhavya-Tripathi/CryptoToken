@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BITQUEEN</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:wght@500&family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+    <div class="container">
+    <h1>Creating Our Own Crypto-Tokens and Selling Them</h1>
+    <p>We created our own crypto tokens called BitQueen and set up a token sale.</p>
+    
+    <div class="card mb-3">
+        <img src="images/tokensale.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Home Page</h5>
+          <p class="card-text">Once a user logs in to their account they see the token sale homepage, which shows the amount of time before the sale ends, a progress bar at the bottom that displays the amount of tokens that have been sold out of the total number of tokens in the sale, the token details, an option to buy the tokens and a button that redirects a user to their dashboard.</p> 
+        </div>
+      </div>
+      
+      <div class="card mb-3">
+        <img src="images/admin.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Admin Dashboard Page</h5>
+          <p class="card-text">The admin dashboard gives the admin’s personal details along with the token balance (by default the owner has 1000000 tokens), the number of tokens sold in the token sale and the number of tokens left. The admin can end the sale whenever they wish through the admin dashboard.        </p>  
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="images/announcement.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Announcement Page in Admin Dashboard</h5>
+          <p class="card-text">An announcement page for the admin to notify all users about any updates in the sale.
+        </p>  
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="images/tokentransfer.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Transferring Token to Sale via Admin Dashboard
+        </h5>
+          <p class="card-text">The admin transfers a certain amount of tokens to the token sale to start the sale.
+        </p>  
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="images/userprofile.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">User Dashboard Page</h5>
+          <p class="card-text">A user dashboard displays the user’s personal details, the balance available in the user’s account to buy tokens and the number of tokens owned by the user.
+        </p>  
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="images/userprofile.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">User Transaction History</h5>
+          <p class="card-text">The user dashboard also displays the transaction history of the user, the number of tokens bought, the gas used in the transaction etc.       </p>  
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="images/login.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Login Page</h5>
+          <p class="card-text">A login page that allows already registered users to login to their accounts using their email id and password.
+        </p>
+          
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="images/signup.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sign Up Page</h5>
+          <p class="card-text">A sign up page for users who aren’t registered to access the token sale home page.</p>  
+        </div>
+      </div>
+      
+      <div class="card mb-3">
+        <img src="images/enterotp.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">OTP Verification on Sign up</h5>
+          <p class="card-text">A 6 character one time password is generated and sent to the user’s email id in order to verify their email.</p>  
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="images/forgotpass.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Forgot Passoword Page</h5>
+          <p class="card-text">In case a user forgets their password, a reset link is sent to their email id where they can reset their password.
+        </p>  
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="images/resetpass.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reset Password Page</h5>
+          <p class="card-text">The reset link redirects the user to the reset password page where the user can set a new password for their account.</p>  
+        </div>
+      </div>
+    </div>
+    <h2>Technology Stack</h2>
+    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+      <button type="button" class="btn btn-lg btn-light">Solidity</button>
+      <button type="button" class="btn btn-lg btn-dark">Ganache</button>
+      <button type="button" class="btn btn-lg btn-light">Truffle Suite</button>
+      <button type="button" class="btn btn-lg btn-dark">Metamask</button>
+      <button type="button" class="btn btn-lg btn-light">HTML</button>
+      <button type="button" class="btn btn-lg btn-dark">CSS</button>
+      <button type="button" class="btn btn-lg btn-light">Javascript</button>
+      <button type="button" class="btn btn-lg btn-dark">NodeJs</button>
+      <button type="button" class="btn btn-lg btn-light">MongoDB</button>
+      <button type="button" class="btn btn-lg btn-dark">Bootstrap</button>
+    </div>
+    <br>
+    <br>
+    <footer>© Bhavya Tripathi 2021</footer>
+  </div>
+</body>
+</html>

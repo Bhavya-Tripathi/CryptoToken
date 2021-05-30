@@ -1,0 +1,31 @@
+body{
+    
+    background-color: #14274e;
+    margin: auto;
+    text-align: center;
+}
+h1, h2{
+    color: #f1f6f9;
+    margin: 2% auto;
+    font-size: 2.5em;
+    font-family: 'Lora', serif;
+}
+
+p{
+    color: #f1f6f9;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+.card-title, .card-text{
+    color: #14274e;
+}
+
+footer{
+    margin: 2% auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #f1f6f9;
+}
+.coloured{
+    /* background-color: #9ba4b4; */
+}
